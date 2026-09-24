@@ -1,0 +1,515 @@
+<!DOCTYPE html><html lang="vi" style=""><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_dashboard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-secondary":"#ffffff","on-tertiary-fixed-variant":"#6e3900","secondary-fixed-dim":"#68dba9","surface-tint":"#2749ec","on-secondary-container":"#00714e","outline-variant":"#c4c5d9","secondary-fixed":"#85f8c4","inverse-primary":"#bac3ff","on-primary":"#ffffff","on-tertiary-fixed":"#2f1500","on-tertiary-container":"#ffcca6","surface-container-high":"#e2e7ff","primary-container":"#2547eb","on-tertiary":"#ffffff","surface":"#faf8ff","on-error":"#ffffff","surface-bright":"#faf8ff","on-primary-container":"#cfd4ff","tertiary":"#6c3800","on-secondary-fixed-variant":"#005137","tertiary-fixed-dim":"#ffb77d","tertiary-fixed":"#ffdcc3","on-primary-fixed":"#000f5c","surface-container-highest":"#dae2fd","error":"#ba1a1a","outline":"#747687","primary-fixed-dim":"#bac3ff","secondary-container":"#82f5c1","surface-container-low":"#f2f3ff","tertiary-container":"#8f4c00","surface-variant":"#dae2fd","on-error-container":"#93000a","background":"#faf8ff","on-surface-variant":"#444656","surface-container-lowest":"#ffffff","on-surface":"#131b2e","surface-container":"#eaedff","surface-dim":"#d2d9f4","inverse-on-surface":"#eef0ff","on-secondary-fixed":"#002114","primary":"#002dc7","inverse-surface":"#283044","error-container":"#ffdad6","secondary":"#006c4a","on-primary-fixed-variant":"#002ecb","primary-fixed":"#dee0ff","on-background":"#131b2e"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-lg":"1.5rem","space-2xs":"0.25rem","space-xs":"0.375rem","space-2xl":"3rem","gutter-desktop":"1.5rem","margin-tablet":"1.5rem","space-sm":"0.5rem","space-md":"0.75rem","margin-desktop":"2.5rem","gutter":"1rem","space-base":"1rem","space-xl":"2rem","margin":"1rem"},fontFamily:{"headline-lg":["Be Vietnam Pro"],"label-md":["Be Vietnam Pro"],"body-lg":["Be Vietnam Pro"],"label-sm":["Be Vietnam Pro"],"title-md":["Be Vietnam Pro"],"body-sm":["Be Vietnam Pro"],"headline-md":["Be Vietnam Pro"],"headline-lg-mobile":["Be Vietnam Pro"],"body-md":["Be Vietnam Pro"],"display-lg":["Be Vietnam Pro"]},fontSize:{"headline-lg":["28px",{"lineHeight":"36px","letterSpacing":"-0.015em","fontWeight":"600"}],"label-md":["13px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"24px","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.02em","fontWeight":"600"}],"title-md":["16px",{"lineHeight":"22px","fontWeight":"600"}],"body-sm":["12px",{"lineHeight":"16px","fontWeight":"400"}],"headline-md":["20px",{"lineHeight":"26px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg-mobile":["22px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"20px","fontWeight":"400"}],"display-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}]}}}}</script></head><body class="bg-background font-body-md text-body-md text-on-surface antialiased" data-mode="connect"><aside class="fixed left-0 top-0 h-full w-72 bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-50 flex flex-col justify-between"><div class="flex flex-col"><div class="h-16 px-space-base flex items-center justify-between bg-surface-container-low"><div class="flex items-center gap-space-sm"><img alt="LichHoc Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Ueq41UeFZSJFd78wvTG1fqDhPkdMw5OL2YNfyt06mlpFJYYuD3um-7oSV0TovUquaVnPaIzhevrTdtR9o59SHYP7l_fmA4Q4FqVWdFk6TW9vNCAOh-ShBfJfrNQzAn6j1uQ8Gndr3zvgg_UztOS3Tk5s0CkqvrZpq07dVnBC6PhMyy0A1qVBYOlGMgHYLYs6rFuBysdcCQ_Va1a8tl_0aWhm-UmTyIP3ovb5_6-RgOVD_sj51xrZUvGws"><div class="flex flex-col"><span class="font-title-md text-title-md text-primary tracking-tight">LichHoc</span><span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Sinh viên &amp; Giảng đường</span></div></div></div><div class="px-space-base py-space-sm"><span class="font-label-sm text-label-sm text-outline uppercase tracking-wider px-space-xs">Danh mục chính</span></div><nav class="flex flex-col gap-space-2xs px-space-sm" data-active-classes="bg-primary-container text-on-primary font-title-md"><a class="flex items-center justify-between px-space-base py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="nhap-lich-html" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-title-md">code_blocks</span><span class="font-title-md text-title-md">Nhập lịch HTML</span></div><span class="font-label-sm text-label-sm bg-surface-container-highest text-on-surface-variant px-space-xs py-space-2xs rounded-full">Tự động</span></a><a class="flex items-center justify-between px-space-base py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="lich-cua-toi" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-title-md">calendar_month</span><span class="font-title-md text-title-md">Lịch của tôi</span></div><span class="font-label-sm text-label-sm bg-secondary-container text-on-secondary-container px-space-xs py-space-2xs rounded-full">6 môn</span></a><a class="flex items-center justify-between px-space-base py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="quan-ly-lich-hoc-crud" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-title-md">database</span><span class="font-title-md text-title-md">Quản lý lịch học CRUD</span></div><span class="font-label-sm text-label-sm bg-surface-container text-primary font-medium px-space-xs py-space-2xs rounded-full">MongoDB</span></a><a class="flex items-center justify-between px-space-base py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="quan-tri-vien" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-title-md">shield_person</span><span class="font-title-md text-title-md">Quản trị viên</span></div><span class="font-label-sm text-label-sm bg-tertiary-fixed text-on-tertiary-fixed-variant px-space-xs py-space-2xs rounded-full font-semibold">Admin</span></a></nav></div><div class="p-space-base bg-surface-container-low m-space-sm rounded-xl flex flex-col gap-space-xs"><div class="flex items-center justify-between"><span class="font-label-sm text-label-sm text-on-surface-variant">Đồng bộ hệ thống</span><span class="w-2 h-2 rounded-full bg-secondary animate-ping"></span></div><div class="flex flex-col gap-space-2xs"><div class="flex items-center justify-between"><span class="font-body-sm text-body-sm text-outline">Flask API :5000</span><span class="font-label-sm text-label-sm text-secondary font-semibold">Sẵn sàng</span></div><div class="flex items-center justify-between"><span class="font-body-sm text-body-sm text-outline">Express :5001</span><span class="font-label-sm text-label-sm text-secondary font-semibold">Sẵn sàng</span></div></div></div></aside><div class="pl-72 flex flex-col min-h-screen"><header class="fixed top-0 left-72 right-0 h-16 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex items-center justify-between px-space-lg"><div class="flex items-center gap-space-sm"><div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm"><span class="material-symbols-outlined text-label-md text-outline">school</span><span class="font-title-md text-title-md text-on-surface font-semibold">Đại học</span></div></div><div class="flex items-center gap-space-md"><div class="hidden lg:flex items-center gap-space-xs bg-surface-container-low px-space-sm py-space-2xs rounded-full"><div class="flex items-center gap-space-2xs"><span class="w-2 h-2 rounded-full bg-secondary"></span><span class="font-label-sm text-label-sm text-on-surface-variant">Flask :5000</span></div><span class="text-outline-variant font-label-sm text-label-sm">|</span><div class="flex items-center gap-space-2xs"><span class="w-2 h-2 rounded-full bg-secondary"></span><span class="font-label-sm text-label-sm text-on-surface-variant">Express :5001</span></div></div><button class="relative p-space-xs rounded-full text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" title="Thông báo mới"><span class="material-symbols-outlined text-title-md">notifications</span><span class="absolute top-1 right-1 w-2 h-2 bg-error rounded-full"></span></button><div class="flex items-center gap-space-sm pl-space-sm border-l border-outline-variant/30"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1m-h5hGMNDV4yZwt9gqdv7VnYlfZbU9rXV-5u9nwTo740rzG7phO_AeeoZaqxnQxq9N7qeFw7MpFCGRvImauCDwf0dlxC7DciNxYEyO3JuWUoSTcOWVoE5zsaF1Dzvzds747fqftfntUWVwTUBJx65dl6-iv3AyKB3SJVjzikxdrRVXbz7br97KxGkxIrugXIH-OUcmCVPFD-G8urCrbhDchZ-6cK8TUjVrQgSTOcOMrz7kkiigia"><div class="flex flex-col text-left"><span class="font-title-md text-title-md text-on-surface leading-none">Nguyễn Văn Minh</span><span class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">K66 CNTT</span></div><a class="ml-space-xs p-space-2xs rounded-lg text-outline hover:bg-error-container hover:text-on-error-container transition-all" data-path="dang-xuat" href="#" title="Đăng xuất"><span class="material-symbols-outlined text-title-md">logout</span></a></div></div></header><main class="w-full pt-16 bg-surface flex-1 px-gutter-desktop py-space-lg"><div class="flex flex-col w-full gap-space-xl">
+<!-- Progress Stepper Tracker -->
+<div class="w-full bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+<div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">Quy trình nhập dữ liệu</span>
+<h1 class="font-headline-md text-headline-md text-on-surface">Bóc tách &amp; Đồng bộ Thời khóa biểu</h1>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container-low px-space-sm py-space-2xs rounded-full">
+<span class="material-symbols-outlined text-label-md text-secondary">verified_user</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Bảo mật thiết bị đầu cuối: Không lưu mật khẩu</span>
+</div>
+</div>
+<!-- Multi-step Visual Pipeline -->
+<div class="mt-space-lg grid grid-cols-1 md:grid-cols-3 gap-space-base relative">
+<!-- Step 1 (Completed/Active) -->
+<div class="flex items-center gap-space-sm p-space-sm rounded-xl bg-surface-container-high transition-all">
+<div class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center font-title-md text-title-md shrink-0 shadow-md">
+<span class="material-symbols-outlined text-title-md">code</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-primary font-semibold">BƯỚC 1</span>
+<span class="font-title-md text-title-md text-on-surface truncate">Dán mã nguồn HTML</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Trích xuất thẻ &lt;table&gt;</span>
+</div>
+</div>
+<!-- Step 2 (In Focus) -->
+<div class="flex items-center gap-space-sm p-space-sm rounded-xl bg-primary-container/10 transition-all">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary flex items-center justify-center font-title-md text-title-md shrink-0 shadow-md ring-4 ring-primary-fixed">
+<span class="material-symbols-outlined text-title-md">fact_check</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-primary font-semibold">BƯỚC 2</span>
+<span class="font-title-md text-title-md text-primary truncate">Xem trước &amp; Xác thực</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Phát hiện 5 môn hợp lệ</span>
+</div>
+</div>
+<!-- Step 3 (Pending) -->
+<div class="flex items-center gap-space-sm p-space-sm rounded-xl bg-surface-container-low opacity-75">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest text-outline flex items-center justify-center font-title-md text-title-md shrink-0">
+<span class="material-symbols-outlined text-title-md">cloud_sync</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-outline font-semibold">BƯỚC 3</span>
+<span class="font-title-md text-title-md text-on-surface truncate">Lưu vào Lịch cá nhân</span>
+<span class="font-body-sm text-body-sm text-outline">Đồng bộ MongoDB &amp; Flask</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Main Dual Interaction Grid: Code Input & Educational Callout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<!-- Left Area: Input Workspace (8 Cols) -->
+<div class="lg:col-span-8 flex flex-col gap-space-base bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm pb-space-xs">
+<div>
+<h2 class="font-title-md text-title-md text-on-surface flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary">data_object</span>
+            Mã HTML bảng thời khóa biểu
+          </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+            Hỗ trợ cấu trúc cổng tín chỉ SIS (HUST), VNU, UIT, HCMUT, FTU và NEU
+          </p>
+</div>
+<!-- Quick Action Utility Pills -->
+<div class="flex items-center gap-space-2xs">
+<button class="flex items-center gap-space-2xs px-space-sm py-space-xs rounded-lg bg-surface-container-low text-primary font-label-md text-label-md hover:bg-surface-container transition-all" id="btn-sample" type="button">
+<span class="material-symbols-outlined text-label-md">code_blocks</span>
+            Mẫu Bách Khoa / ĐHQG
+          </button>
+<button class="flex items-center gap-space-2xs px-space-sm py-space-xs rounded-lg bg-surface-container-low text-outline hover:bg-error-container hover:text-on-error-container font-label-md text-label-md transition-all" id="btn-clear" title="Xóa toàn bộ" type="button">
+<span class="material-symbols-outlined text-label-md">delete_sweep</span>
+            Xóa
+          </button>
+</div>
+</div>
+<!-- Editor Textarea Area -->
+<div class="relative flex flex-col">
+<div class="flex items-center justify-between px-space-sm py-space-xs bg-surface-container-high rounded-t-xl text-on-surface-variant font-label-sm text-label-sm">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-error"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-tertiary"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<span class="ml-space-xs font-mono font-medium">timetable_outerHTML.html</span>
+</div>
+<span class="font-mono text-outline" id="char-count">1,248 ký tự</span>
+</div>
+<textarea class="w-full bg-surface-container-lowest font-mono font-body-sm text-body-sm text-on-surface p-space-base rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary shadow-inner resize-y transition-all" id="html-editor" placeholder="Dán nội dung thẻ &lt;table class=&quot;grid-table&quot;&gt;...&lt;/table&gt; hoặc &lt;div id=&quot;divTKB&quot;&gt;...&lt;/div&gt; vào đây..." rows="7">&lt;table class="grid-table" id="tbSchedule"&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;&lt;th&gt;Thứ&lt;/th&gt;&lt;th&gt;Mã HP&lt;/th&gt;&lt;th&gt;Tên học phần&lt;/th&gt;&lt;th&gt;Thời gian&lt;/th&gt;&lt;th&gt;Phòng&lt;/th&gt;&lt;th&gt;Giảng viên&lt;/th&gt;&lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;&lt;td&gt;Hai&lt;/td&gt;&lt;td&gt;IT3080&lt;/td&gt;&lt;td&gt;Mạng máy tính&lt;/td&gt;&lt;td&gt;06:45 - 09:10 (Tiết 1-3)&lt;/td&gt;&lt;td&gt;TC-302&lt;/td&gt;&lt;td&gt;TS. Trần Văn Nam&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Ba&lt;/td&gt;&lt;td&gt;IT3120&lt;/td&gt;&lt;td&gt;Hệ điều hành Unix/Linux&lt;/td&gt;&lt;td&gt;09:20 - 11:45 (Tiết 4-6)&lt;/td&gt;&lt;td&gt;D9-501&lt;/td&gt;&lt;td&gt;ThS. Lê Thanh Tâm&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Tư&lt;/td&gt;&lt;td&gt;IT4010&lt;/td&gt;&lt;td&gt;Trí tuệ nhân tạo (AI)&lt;/td&gt;&lt;td&gt;12:30 - 15:05 (Tiết 7-9)&lt;/td&gt;&lt;td&gt;B1-204&lt;/td&gt;&lt;td&gt;PGS. Đỗ Gia Bình&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Năm&lt;/td&gt;&lt;td&gt;SSH1111&lt;/td&gt;&lt;td&gt;Triết học Mác - Lênin&lt;/td&gt;&lt;td&gt;15:15 - 17:40 (Tiết 10-12)&lt;/td&gt;&lt;td&gt;C2-101&lt;/td&gt;&lt;td&gt;TS. Phạm Mai Lan&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Sáu&lt;/td&gt;&lt;td&gt;IT3940&lt;/td&gt;&lt;td&gt;Thực hành Lập trình Mạng&lt;/td&gt;&lt;td&gt;07:30 - 11:30 (Tiết 2-5)&lt;/td&gt;&lt;td&gt;Lab-IT4&lt;/td&gt;&lt;td&gt;ThS. Hoàng Quốc Đạt&lt;/td&gt;&lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</textarea>
+</div>
+<!-- Parse Endpoint Trigger Row -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-space-base pt-space-xs">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-mono font-body-sm text-body-sm">
+<span class="px-space-xs py-space-2xs bg-surface-container rounded font-semibold text-primary">POST</span>
+<span class="text-outline truncate">/api/v1/schedule/parse-dom</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<button class="px-space-sm py-space-xs rounded-xl bg-surface-container-low text-on-surface-variant hover:bg-surface-container font-label-md text-label-md transition-all" id="btn-mock-fail" type="button">
+            Thử lỗi HTTP 400
+          </button>
+<button class="flex items-center justify-center gap-space-xs px-space-lg py-space-sm rounded-xl bg-primary text-on-primary font-label-md text-label-md shadow-md hover:bg-primary-container transition-all active:scale-[0.98]" id="btn-parse" type="button">
+<span class="material-symbols-outlined text-title-md">bolt</span>
+<span class="">Bóc tách dữ liệu ngay</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Right Area: Visual Guide & Security Sandbox (4 Cols) -->
+<div class="lg:col-span-4 flex flex-col gap-space-base">
+<!-- Friendly Security Sandbox Card -->
+<div class="bg-surface-container-low p-space-lg rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-xs text-secondary font-title-md text-title-md">
+<span class="material-symbols-outlined">format_image_left</span>
+<span class="">Bảo mật &amp; An toàn 100%</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Parser chỉ đọc cấu trúc bảng điểm và tên giảng đường. Hệ thống tự động lọc bỏ mọi thẻ <code class="bg-surface-container px-space-2xs rounded font-mono text-outline">&lt;script&gt;</code>, Cookie và Token đăng nhập trước khi gửi về Flask API.
+        </p>
+<!-- Quick 3-step Micro Illustration / Mini Workflow -->
+<div class="mt-space-xs flex flex-col gap-space-xs bg-surface-container-lowest p-space-sm rounded-lg">
+<div class="flex items-start gap-space-xs">
+<span class="w-5 h-5 rounded-full bg-surface-container flex items-center justify-center font-label-sm text-label-sm font-bold text-primary shrink-0">1</span>
+<span class="font-body-sm text-body-sm text-on-surface">Vào cổng sinh viên, mở tab Thời khóa biểu</span>
+</div>
+<div class="flex items-start gap-space-xs">
+<span class="w-5 h-5 rounded-full bg-surface-container flex items-center justify-center font-label-sm text-label-sm font-bold text-primary shrink-0">2</span>
+<span class="font-body-sm text-body-sm text-on-surface">Nhấn <kbd class="px-space-2xs py-0.5 bg-surface-container-high rounded text-label-sm font-mono">F12</kbd> ➔ Inspect bảng TKB</span>
+</div>
+<div class="flex items-start gap-space-xs">
+<span class="w-5 h-5 rounded-full bg-surface-container flex items-center justify-center font-label-sm text-label-sm font-bold text-primary shrink-0">3</span>
+<span class="font-body-sm text-body-sm text-on-surface">Chuột phải ➔ Copy ➔ <b>Copy outerHTML</b></span>
+</div>
+</div>
+</div>
+<!-- Quick Metrics Pill Counter -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between flex-1">
+
+<div class="my-space-md flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-display-lg text-display-lg text-primary leading-none">18</span>
+<span class="font-body-sm text-body-sm text-outline mt-1">Tín chỉ phát hiện</span>
+</div>
+<!-- Sparkline / Mini Visual Bar Chart SVG -->
+<svg class="w-32 h-12 text-primary" fill="none" viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 36 L24 20 L48 28 L72 10 L96 16 L116 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
+<path d="M4 36 L24 20 L48 28 L72 10 L96 16 L116 4 V40 H4 Z" fill="currentColor" fill-opacity="0.12"></path>
+<circle cx="116" cy="4" fill="currentColor" r="3.5"></circle>
+</svg>
+</div>
+<div class="pt-space-xs flex items-center justify-between font-label-sm text-label-sm text-outline">
+<span class="">Thời gian phản hồi DOM</span>
+<span class="font-mono text-secondary font-semibold">~42ms (Cực nhanh)</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Dynamic Feedback Banner: Error Simulation (Hidden by default, togglable) -->
+<div class="hidden p-space-base bg-error-container text-on-error-container rounded-xl shadow-sm flex items-start justify-between gap-space-base transition-all" id="alert-error-box">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-title-md shrink-0 mt-0.5">error</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md font-semibold">Lỗi cấu trúc HTML (HTTP 400 - Bad Format)</span>
+<span class="font-body-md text-body-md mt-0.5">Không tìm thấy bảng dữ liệu hợp lệ chứa các cột Thời gian/Phòng học. Vui lòng kiểm tra lại xem bạn đã chọn thẻ <code class="font-mono px-1 rounded bg-surface-container-lowest/30">&lt;table&gt;</code> chưa.</span>
+</div>
+</div>
+<button class="p-space-2xs rounded-lg hover:bg-surface-container-lowest/20" onclick="document.getElementById('alert-error-box').classList.add('hidden')" type="button">
+<span class="material-symbols-outlined text-title-md">close</span>
+</button>
+</div>
+<!-- PREVIEW SECTION (Core Step 2 & 3) -->
+<div class="flex flex-col gap-space-base bg-surface-container-lowest p-space-lg rounded-xl shadow-sm" id="preview-section">
+<!-- Success Banner Header -->
+<div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-space-md p-space-base bg-secondary-container/30 rounded-xl">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-secondary text-on-secondary flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-title-md">celebration</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface font-semibold">Đã bóc tách thành công 5 học phần (10 buổi học)!</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Tất cả dữ liệu đã được đối soát theo danh mục Viện CNTT. Vui lòng kiểm tra lại trước khi đồng bộ.</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs self-end lg:self-auto">
+<span class="font-label-sm text-label-sm bg-secondary-container text-on-secondary-container font-semibold px-space-sm py-space-2xs rounded-full flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-secondary"></span> 100% Khớp phòng học
+        </span>
+</div>
+</div>
+<!-- Parsed Data Structured Table -->
+<div class="overflow-x-auto w-full">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container-low text-on-surface-variant font-label-md text-label-md">
+<th class="py-space-sm px-space-base rounded-l-lg">Thứ</th>
+<th class="py-space-sm px-space-base">Môn học</th>
+<th class="py-space-sm px-space-base">Mã HP / Lớp</th>
+<th class="py-space-sm px-space-base">Khung giờ &amp; Tiết</th>
+<th class="py-space-sm px-space-base">Phòng học</th>
+<th class="py-space-sm px-space-base">Cơ sở / Giảng viên</th>
+<th class="py-space-sm px-space-base rounded-r-lg text-right">Trạng thái</th>
+</tr>
+</thead>
+<tbody class="font-body-md text-body-md text-on-surface divide-y divide-transparent">
+<!-- Course Row 1 -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-space-md px-space-base">
+<span class="px-space-xs py-space-2xs rounded-md bg-surface-container-high font-label-md text-label-md font-bold text-primary">Thứ 2</span>
+</td>
+<td class="py-space-md px-space-base">
+<div class="flex flex-col">
+<span class="font-title-md text-title-md font-semibold text-on-surface">Mạng máy tính</span>
+<span class="font-body-sm text-body-sm text-outline">Lý thuyết chung - 3 Tín chỉ</span>
+</div>
+</td>
+<td class="py-space-md px-space-base">
+<span class="font-mono font-label-md text-label-md px-space-xs py-0.5 bg-surface-container rounded text-on-surface-variant">IT3080</span>
+</td>
+<td class="py-space-md px-space-base">
+<div class="flex items-center gap-space-2xs text-on-surface">
+<span class="material-symbols-outlined text-label-md text-primary">schedule</span>
+<span class="font-body-sm text-body-sm font-medium">06:45 - 09:10</span>
+<span class="font-label-sm text-label-sm text-outline">(Tiết 1-3)</span>
+</div>
+</td>
+<td class="py-space-md px-space-base">
+<span class="font-title-md text-title-md font-semibold text-primary">TC-302</span>
+</td>
+<td class="py-space-md px-space-base">
+<div class="flex flex-col">
+<span class="font-body-sm text-body-sm text-on-surface">TS. Trần Văn Nam</span>
+<span class="font-label-sm text-label-sm text-outline">Khu giảng đường C</span>
+</div>
+</td>
+<td class="py-space-md px-space-base text-right">
+<span class="inline-flex items-center gap-1 px-space-xs py-space-2xs rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-label-md">check_circle</span> Hợp lệ
+              </span>
+</td>
+</tr>
+<!-- Course Row 2 -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-space-md px-space-base">
+<span class="px-space-xs py-space-2xs rounded-md bg-surface-container-high font-label-md text-label-md font-bold text-primary">Thứ 3</span>
+</td>
+<td class="py-space-md px-space-base">
+<div class="flex flex-col">
+<span class="font-title-md text-title-md font-semibold text-on-surface">Hệ điều hành Unix/Linux</span>
+<span class="font-body-sm text-body-sm text-outline">Chuyên ngành KHMT - 3 Tín chỉ</span>
+</div>
+</td>
+<td class="py-space-md px-space-base">
+<span class="font-mono font-label-md text-label-md px-space-xs py-0.5 bg-surface-container rounded text-on-surface-variant">IT3120</span>
+</td>
+<td class="py-space-md px-space-base">
+<div class="flex items-center gap-space-2xs text-on-surface">
+<span class="material-symbols-outlined text-label-md text-primary">schedule</span>
+<span class="font-body-sm text-body-sm font-medium">09:20 - 11:45</span>
+<span class="font-label-sm text-label-sm text-outline">(Tiết 4-6)</span>
+</div>
+</td>
+<td class="py-space-md px-space-base">
+<span class="font-title-md text-title-md font-semibold text-primary">D9-501</span>
+</td>
+<td class="py-space-md px-space-base">
+<div class="flex flex-col">
+<span class="font-body-sm text-body-sm text-on-surface">ThS. Lê Thanh Tâm</span>
+<span class="font-label-sm text-label-sm text-outline">Tòa nhà D9</span>
+</div>
+</td>
+<td class="py-space-md px-space-base text-right">
+<span class="inline-flex items-center gap-1 px-space-xs py-space-2xs rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-label-md">check_circle</span> Hợp lệ
+              </span>
+</td>
+</tr>
+<!-- Course Row 3 -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-space-md px-space-base">
+<span class="px-space-xs py-space-2xs rounded-md bg-surface-container-high font-label-md text-label-md font-bold text-primary">Thứ 4</span>
+</td>
+<td class="py-space-md px-space-base">
+<div class="flex flex-col">
+<span class="font-title-md text-title-md font-semibold text-on-surface">Trí tuệ nhân tạo (AI)</span>
+<span class="font-body-sm text-body-sm text-outline">Học máy nâng cao - 4 Tín chỉ</span>
+</div>
+</td>
+<td class="py-space-md px-space-base">
+<span class="font-mono font-label-md text-label-md px-space-xs py-0.5 bg-surface-container rounded text-on-surface-variant">IT4010</span>
+</td>
+<td class="py-space-md px-space-base">
+<div class="flex items-center gap-space-2xs text-on-surface">
+<span class="material-symbols-outlined text-label-md text-primary">schedule</span>
+<span class="font-body-sm text-body-sm font-medium">12:30 - 15:05</span>
+<span class="font-label-sm text-label-sm text-outline">(Tiết 7-9)</span>
+</div>
+</td>
+<td class="py-space-md px-space-base">
+<span class="font-title-md text-title-md font-semibold text-primary">B1-204</span>
+</td>
+<td class="py-space-md px-space-base">
+<div class="flex flex-col">
+<span class="font-body-sm text-body-sm text-on-surface">PGS. Đỗ Gia Bình</span>
+<span class="font-label-sm text-label-sm text-outline">Giảng đường B1</span>
+</div>
+</td>
+<td class="py-space-md px-space-base text-right">
+<span class="inline-flex items-center gap-1 px-space-xs py-space-2xs rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-label-md">check_circle</span> Hợp lệ
+              </span>
+</td>
+</tr>
+<!-- Course Row 4 -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-space-md px-space-base">
+<span class="px-space-xs py-space-2xs rounded-md bg-surface-container-high font-label-md text-label-md font-bold text-primary">Thứ 5</span>
+</td>
+<td class="py-space-md px-space-base">
+<div class="flex flex-col">
+<span class="font-title-md text-title-md font-semibold text-on-surface">Triết học Mác - Lênin</span>
+<span class="font-body-sm text-body-sm text-outline">Lý luận đại cương - 3 Tín chỉ</span>
+</div>
+</td>
+<td class="py-space-md px-space-base">
+<span class="font-mono font-label-md text-label-md px-space-xs py-0.5 bg-surface-container rounded text-on-surface-variant">SSH1111</span>
+</td>
+<td class="py-space-md px-space-base">
+<div class="flex items-center gap-space-2xs text-on-surface">
+<span class="material-symbols-outlined text-label-md text-primary">schedule</span>
+<span class="font-body-sm text-body-sm font-medium">15:15 - 17:40</span>
+<span class="font-label-sm text-label-sm text-outline">(Tiết 10-12)</span>
+</div>
+</td>
+<td class="py-space-md px-space-base">
+<span class="font-title-md text-title-md font-semibold text-primary">C2-101</span>
+</td>
+<td class="py-space-md px-space-base">
+<div class="flex flex-col">
+<span class="font-body-sm text-body-sm text-on-surface">TS. Phạm Mai Lan</span>
+<span class="font-label-sm text-label-sm text-outline">Hội trường C2</span>
+</div>
+</td>
+<td class="py-space-md px-space-base text-right">
+<span class="inline-flex items-center gap-1 px-space-xs py-space-2xs rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-label-md">check_circle</span> Hợp lệ
+              </span>
+</td>
+</tr>
+<!-- Course Row 5 -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-space-md px-space-base">
+<span class="px-space-xs py-space-2xs rounded-md bg-surface-container-high font-label-md text-label-md font-bold text-primary">Thứ 6</span>
+</td>
+<td class="py-space-md px-space-base">
+<div class="flex flex-col">
+<span class="font-title-md text-title-md font-semibold text-on-surface">Thực hành Lập trình Mạng</span>
+<span class="font-body-sm text-body-sm text-outline">Phòng Lab thực hành - 2 Tín chỉ</span>
+</div>
+</td>
+<td class="py-space-md px-space-base">
+<span class="font-mono font-label-md text-label-md px-space-xs py-0.5 bg-surface-container rounded text-on-surface-variant">IT3940</span>
+</td>
+<td class="py-space-md px-space-base">
+<div class="flex items-center gap-space-2xs text-on-surface">
+<span class="material-symbols-outlined text-label-md text-primary">schedule</span>
+<span class="font-body-sm text-body-sm font-medium">07:30 - 11:30</span>
+<span class="font-label-sm text-label-sm text-outline">(Tiết 2-5)</span>
+</div>
+</td>
+<td class="py-space-md px-space-base">
+<span class="font-title-md text-title-md font-semibold text-secondary">Lab-IT4</span>
+</td>
+<td class="py-space-md px-space-base">
+<div class="flex flex-col">
+<span class="font-body-sm text-body-sm text-on-surface">ThS. Hoàng Quốc Đạt</span>
+<span class="font-label-sm text-label-sm text-outline">Tòa nhà Thư viện Tạ Quang Bửu</span>
+</div>
+</td>
+<td class="py-space-md px-space-base text-right">
+<span class="inline-flex items-center gap-1 px-space-xs py-space-2xs rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-label-md">check_circle</span> Hợp lệ
+              </span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- API Authorization Note Callout -->
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-base p-space-base bg-surface-container-low rounded-xl">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-title-md shrink-0">key</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Ghi chú xác thực người dùng</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+            Dữ liệu sẽ được lưu tự động vào tài khoản sinh viên <code class="font-mono font-semibold text-primary">Nguyễn Văn Minh (K66)</code> qua API <code class="bg-surface-container px-1 rounded font-mono text-outline">POST /api/schedule</code> (Kèm JWT Bearer Token).
+          </span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs shrink-0">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Phiên đăng nhập: 58 phút còn lại</span>
+</div>
+</div>
+<!-- Final Submission Action Footer -->
+<div class="flex flex-col-reverse sm:flex-row items-center justify-between gap-space-base pt-space-base">
+<div class="flex items-center gap-space-sm w-full sm:w-auto">
+<button class="w-full sm:w-auto px-space-base py-space-sm rounded-xl bg-surface-container-low text-on-surface-variant hover:bg-surface-container font-label-md text-label-md transition-all flex items-center justify-center gap-space-2xs" id="btn-reset" type="button">
+<span class="material-symbols-outlined text-label-md">restart_alt</span>
+          Nhập lại HTML
+        </button>
+<button class="w-full sm:w-auto px-space-base py-space-sm rounded-xl bg-surface-container-low text-outline hover:bg-surface-container hover:text-on-surface font-label-md text-label-md transition-all" type="button">
+          Hủy bỏ
+        </button>
+</div>
+<div class="flex items-center gap-space-sm w-full sm:w-auto">
+<button class="w-full sm:w-auto flex items-center justify-center gap-space-sm px-space-xl py-space-sm rounded-xl bg-primary text-on-primary font-title-md text-title-md shadow-lg hover:bg-primary-container transition-all active:scale-[0.98]" id="btn-save" type="button">
+<span class="material-symbols-outlined text-title-md">save</span>
+<span class="">Xác nhận &amp; Lưu vào Lịch của tôi</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // DOM Elements interaction handlers
+  const editor = document.getElementById('html-editor');
+  const charCount = document.getElementById('char-count');
+  const btnClear = document.getElementById('btn-clear');
+  const btnSample = document.getElementById('btn-sample');
+  const btnParse = document.getElementById('btn-parse');
+  const btnMockFail = document.getElementById('btn-mock-fail');
+  const alertBox = document.getElementById('alert-error-box');
+  const previewSection = document.getElementById('preview-section');
+  const btnReset = document.getElementById('btn-reset');
+  const btnSave = document.getElementById('btn-save');
+
+  function updateCount() {
+    charCount.textContent = editor.value.length.toLocaleString() + ' ký tự';
+  }
+
+  editor.addEventListener('input', updateCount);
+
+  btnClear.addEventListener('click', () => {
+    editor.value = '';
+    updateCount();
+    editor.focus();
+  });
+
+  btnSample.addEventListener('click', () => {
+    editor.value = `<table class="grid-table" id="tbSchedule">
+  <thead>
+    <tr><th>Thứ</th><th>Mã HP</th><th>Tên học phần</th><th>Thời gian</th><th>Phòng</th><th>Giảng viên</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Hai</td><td>IT3080</td><td>Mạng máy tính</td><td>06:45 - 09:10 (Tiết 1-3)</td><td>TC-302</td><td>TS. Trần Văn Nam</td></tr>
+    <tr><td>Ba</td><td>IT3120</td><td>Hệ điều hành Unix/Linux</td><td>09:20 - 11:45 (Tiết 4-6)</td><td>D9-501</td><td>ThS. Lê Thanh Tâm</td></tr>
+    <tr><td>Tư</td><td>IT4010</td><td>Trí tuệ nhân tạo (AI)</td><td>12:30 - 15:05 (Tiết 7-9)</td><td>B1-204</td><td>PGS. Đỗ Gia Bình</td></tr>
+    <tr><td>Năm</td><td>SSH1111</td><td>Triết học Mác - Lênin</td><td>15:15 - 17:40 (Tiết 10-12)</td><td>C2-101</td><td>TS. Phạm Mai Lan</td></tr>
+    <tr><td>Sáu</td><td>IT3940</td><td>Thực hành Lập trình Mạng</td><td>07:30 - 11:30 (Tiết 2-5)</td><td>Lab-IT4</td><td>ThS. Hoàng Quốc Đạt</td></tr>
+  </tbody>
+</table>`;
+    updateCount();
+    alertBox.classList.add('hidden');
+    previewSection.classList.remove('opacity-50');
+  });
+
+  btnMockFail.addEventListener('click', () => {
+    alertBox.classList.remove('hidden');
+    window.scrollTo({ top: alertBox.offsetTop - 80, behavior: 'smooth' });
+  });
+
+  btnParse.addEventListener('click', () => {
+    if (!editor.value.trim() || !editor.value.includes('<table')) {
+      alertBox.classList.remove('hidden');
+      window.scrollTo({ top: alertBox.offsetTop - 80, behavior: 'smooth' });
+    } else {
+      alertBox.classList.add('hidden');
+      previewSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  });
+
+  btnReset.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    editor.focus();
+  });
+
+  btnSave.addEventListener('click', () => {
+    const originalText = btnSave.innerHTML;
+    btnSave.innerHTML = '<span class="material-symbols-outlined animate-spin text-title-md">sync</span> Đang lưu vào MongoDB...';
+    btnSave.disabled = true;
+    setTimeout(() => {
+      btnSave.innerHTML = '<span class="material-symbols-outlined text-title-md">check</span> Đã lưu thành công!';
+      btnSave.classList.remove('bg-primary');
+      btnSave.classList.add('bg-secondary');
+      setTimeout(() => {
+        btnSave.innerHTML = originalText;
+        btnSave.classList.add('bg-primary');
+        btnSave.classList.remove('bg-secondary');
+        btnSave.disabled = false;
+      }, 2500);
+    }, 1000);
+  });
+</script></main></div>
+
+</body></html>

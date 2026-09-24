@@ -1,0 +1,567 @@
+<!DOCTYPE html><html lang="vi" style=""><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_dashboard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-secondary":"#ffffff","on-tertiary-fixed-variant":"#6e3900","secondary-fixed-dim":"#68dba9","surface-tint":"#2749ec","on-secondary-container":"#00714e","outline-variant":"#c4c5d9","secondary-fixed":"#85f8c4","inverse-primary":"#bac3ff","on-primary":"#ffffff","on-tertiary-fixed":"#2f1500","on-tertiary-container":"#ffcca6","surface-container-high":"#e2e7ff","primary-container":"#2547eb","on-tertiary":"#ffffff","surface":"#faf8ff","on-error":"#ffffff","surface-bright":"#faf8ff","on-primary-container":"#cfd4ff","tertiary":"#6c3800","on-secondary-fixed-variant":"#005137","tertiary-fixed-dim":"#ffb77d","tertiary-fixed":"#ffdcc3","on-primary-fixed":"#000f5c","surface-container-highest":"#dae2fd","error":"#ba1a1a","outline":"#747687","primary-fixed-dim":"#bac3ff","secondary-container":"#82f5c1","surface-container-low":"#f2f3ff","tertiary-container":"#8f4c00","surface-variant":"#dae2fd","on-error-container":"#93000a","background":"#faf8ff","on-surface-variant":"#444656","surface-container-lowest":"#ffffff","on-surface":"#131b2e","surface-container":"#eaedff","surface-dim":"#d2d9f4","inverse-on-surface":"#eef0ff","on-secondary-fixed":"#002114","primary":"#002dc7","inverse-surface":"#283044","error-container":"#ffdad6","secondary":"#006c4a","on-primary-fixed-variant":"#002ecb","primary-fixed":"#dee0ff","on-background":"#131b2e"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-lg":"1.5rem","space-2xs":"0.25rem","space-xs":"0.375rem","space-2xl":"3rem","gutter-desktop":"1.5rem","margin-tablet":"1.5rem","space-sm":"0.5rem","space-md":"0.75rem","margin-desktop":"2.5rem","gutter":"1rem","space-base":"1rem","space-xl":"2rem","margin":"1rem"},fontFamily:{"headline-lg":["Be Vietnam Pro"],"label-md":["Be Vietnam Pro"],"body-lg":["Be Vietnam Pro"],"label-sm":["Be Vietnam Pro"],"title-md":["Be Vietnam Pro"],"body-sm":["Be Vietnam Pro"],"headline-md":["Be Vietnam Pro"],"headline-lg-mobile":["Be Vietnam Pro"],"body-md":["Be Vietnam Pro"],"display-lg":["Be Vietnam Pro"]},fontSize:{"headline-lg":["28px",{"lineHeight":"36px","letterSpacing":"-0.015em","fontWeight":"600"}],"label-md":["13px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"24px","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.02em","fontWeight":"600"}],"title-md":["16px",{"lineHeight":"22px","fontWeight":"600"}],"body-sm":["12px",{"lineHeight":"16px","fontWeight":"400"}],"headline-md":["20px",{"lineHeight":"26px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg-mobile":["22px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"20px","fontWeight":"400"}],"display-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}]}}}}</script></head><body class="bg-background font-body-md text-body-md text-on-surface antialiased" data-mode="connect"><aside class="fixed left-0 top-0 h-full w-72 bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-50 flex flex-col justify-between"><div class="flex flex-col"><div class="h-16 px-space-base flex items-center justify-between bg-surface-container-low"><div class="flex items-center gap-space-sm"><img alt="LichHoc Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Ueq41UeFZSJFd78wvTG1fqDhPkdMw5OL2YNfyt06mlpFJYYuD3um-7oSV0TovUquaVnPaIzhevrTdtR9o59SHYP7l_fmA4Q4FqVWdFk6TW9vNCAOh-ShBfJfrNQzAn6j1uQ8Gndr3zvgg_UztOS3Tk5s0CkqvrZpq07dVnBC6PhMyy0A1qVBYOlGMgHYLYs6rFuBysdcCQ_Va1a8tl_0aWhm-UmTyIP3ovb5_6-RgOVD_sj51xrZUvGws"><div class="flex flex-col"><span class="font-title-md text-title-md text-primary tracking-tight">LichHoc</span><span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Sinh viên &amp; Giảng đường</span></div></div></div><div class="px-space-base py-space-sm"><span class="font-label-sm text-label-sm text-outline uppercase tracking-wider px-space-xs">Danh mục chính</span></div><nav class="flex flex-col gap-space-2xs px-space-sm" data-active-classes="bg-primary-container text-on-primary font-title-md"><a class="flex items-center justify-between px-space-base py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="nhap-lich-html" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-title-md">code_blocks</span><span class="font-title-md text-title-md">Nhập lịch HTML</span></div><span class="font-label-sm text-label-sm bg-surface-container-highest text-on-surface-variant px-space-xs py-space-2xs rounded-full">Tự động</span></a><a class="flex items-center justify-between px-space-base py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="lich-cua-toi" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-title-md">calendar_month</span><span class="font-title-md text-title-md">Lịch của tôi</span></div><span class="font-label-sm text-label-sm bg-secondary-container text-on-secondary-container px-space-xs py-space-2xs rounded-full">6 môn</span></a><a class="flex items-center justify-between px-space-base py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="quan-ly-lich-hoc-crud" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-title-md">database</span><span class="font-title-md text-title-md">Quản lý lịch học CRUD</span></div><span class="font-label-sm text-label-sm bg-surface-container text-primary font-medium px-space-xs py-space-2xs rounded-full">MongoDB</span></a><a class="flex items-center justify-between px-space-base py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="quan-tri-vien" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-title-md">shield_person</span><span class="font-title-md text-title-md">Quản trị viên</span></div><span class="font-label-sm text-label-sm bg-tertiary-fixed text-on-tertiary-fixed-variant px-space-xs py-space-2xs rounded-full font-semibold">Admin</span></a></nav></div><div class="p-space-base bg-surface-container-low m-space-sm rounded-xl flex flex-col gap-space-xs"><div class="flex items-center justify-between"><span class="font-label-sm text-label-sm text-on-surface-variant">Đồng bộ hệ thống</span><span class="w-2 h-2 rounded-full bg-secondary animate-ping"></span></div><div class="flex flex-col gap-space-2xs"><div class="flex items-center justify-between"><span class="font-body-sm text-body-sm text-outline">Flask API :5000</span><span class="font-label-sm text-label-sm text-secondary font-semibold">Sẵn sàng</span></div><div class="flex items-center justify-between"><span class="font-body-sm text-body-sm text-outline">Express :5001</span><span class="font-label-sm text-label-sm text-secondary font-semibold">Sẵn sàng</span></div></div></div></aside><div class="pl-72 flex flex-col min-h-screen"><header class="fixed top-0 left-72 right-0 h-16 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex items-center justify-between px-space-lg"><div class="flex items-center gap-space-sm"><div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm"><span class="material-symbols-outlined text-label-md text-outline">school</span><span class="font-title-md text-title-md text-on-surface font-semibold">Đại học</span></div></div><div class="flex items-center gap-space-md"><div class="hidden lg:flex items-center gap-space-xs bg-surface-container-low px-space-sm py-space-2xs rounded-full"><div class="flex items-center gap-space-2xs"><span class="w-2 h-2 rounded-full bg-secondary"></span><span class="font-label-sm text-label-sm text-on-surface-variant">Flask :5000</span></div><span class="text-outline-variant font-label-sm text-label-sm">|</span><div class="flex items-center gap-space-2xs"><span class="w-2 h-2 rounded-full bg-secondary"></span><span class="font-label-sm text-label-sm text-on-surface-variant">Express :5001</span></div></div><button class="relative p-space-xs rounded-full text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" title="Thông báo mới"><span class="material-symbols-outlined text-title-md">notifications</span><span class="absolute top-1 right-1 w-2 h-2 bg-error rounded-full"></span></button><div class="flex items-center gap-space-sm pl-space-sm border-l border-outline-variant/30"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1m-h5hGMNDV4yZwt9gqdv7VnYlfZbU9rXV-5u9nwTo740rzG7phO_AeeoZaqxnQxq9N7qeFw7MpFCGRvImauCDwf0dlxC7DciNxYEyO3JuWUoSTcOWVoE5zsaF1Dzvzds747fqftfntUWVwTUBJx65dl6-iv3AyKB3SJVjzikxdrRVXbz7br97KxGkxIrugXIH-OUcmCVPFD-G8urCrbhDchZ-6cK8TUjVrQgSTOcOMrz7kkiigia"><div class="flex flex-col text-left"><span class="font-title-md text-title-md text-on-surface leading-none">Nguyễn Văn Minh</span><span class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">K66 CNTT</span></div><a class="ml-space-xs p-space-2xs rounded-lg text-outline hover:bg-error-container hover:text-on-error-container transition-all" data-path="dang-xuat" href="#" title="Đăng xuất"><span class="material-symbols-outlined text-title-md">logout</span></a></div></div></header><main class="w-full pt-16 bg-surface flex-1 px-gutter-desktop py-space-lg"><div class="flex flex-col w-full gap-space-lg">
+<!-- Top Welcome & Semester Status Hero Banner -->
+<div class="relative overflow-hidden rounded-xl bg-surface-container-lowest shadow-sm p-space-lg">
+<div class="absolute -right-16 -top-16 w-80 h-80 rounded-full bg-primary-fixed/30 blur-3xl pointer-events-none"></div>
+<div class="absolute right-48 -bottom-20 w-64 h-64 rounded-full bg-secondary-fixed/40 blur-2xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-sm flex-wrap">
+<h1 class="font-headline-lg text-headline-lg text-on-surface">Chào bạn Nguyễn Văn Minh <span class="inline-block animate-bounce">👋</span></h1>
+
+<span class="inline-flex items-center px-space-sm py-space-2xs rounded-full bg-surface-container-high text-primary font-label-md text-label-md">
+            6 môn học đang kích hoạt
+          </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-title-md text-secondary">verified</span>
+          Lịch học cá nhân được đồng bộ tự động từ Cổng Đào Tạo qua Microservice Flask API.
+        </p>
+</div>
+<!-- Action Utilities -->
+<div class="flex items-center gap-space-sm flex-wrap">
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface font-title-md text-title-md transition-all shadow-sm active:scale-95" id="btn-sync" onclick="handleSync()">
+<span class="material-symbols-outlined text-title-md text-primary" id="sync-icon">sync</span>
+<span id="sync-text" class="">Đồng bộ lại</span>
+</button>
+<a class="inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-xl bg-primary-container text-on-primary font-title-md text-title-md shadow-md hover:bg-primary transition-all active:scale-95" data-path="nhap-lich-html" href="#">
+<span class="material-symbols-outlined text-title-md">html</span>
+<span class="">Nhập thêm từ HTML</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Timetable Toolbar: Week Navigation & View Mode Switcher -->
+<div class="flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-space-md bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<!-- Week Selector Controls -->
+<div class="flex items-center gap-space-xs sm:gap-space-sm">
+<button class="p-space-xs sm:px-space-md sm:py-space-xs rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface font-label-md text-label-md inline-flex items-center gap-space-2xs transition-all" title="Tuần trước">
+<span class="material-symbols-outlined text-title-md">chevron_left</span>
+<span class="hidden sm:inline">Tuần trước</span>
+</button>
+<div class="px-space-md py-space-xs rounded-xl bg-surface-container flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-title-md">event_upcoming</span>
+<span class="font-title-md text-title-md text-on-surface font-semibold">Tuần 24</span>
+<span class="text-on-surface-variant font-body-sm text-body-sm">(17/02 - 23/02/2025)</span>
+</div>
+<button class="p-space-xs sm:px-space-md sm:py-space-xs rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface font-label-md text-label-md inline-flex items-center gap-space-2xs transition-all" title="Tuần sau">
+<span class="hidden sm:inline">Tuần sau</span>
+<span class="material-symbols-outlined text-title-md">chevron_right</span>
+</button>
+</div>
+<!-- Right Controls: View Switcher & Demo Toggle -->
+<div class="flex items-center gap-space-sm justify-between lg:justify-end">
+<!-- Grid / List Switcher -->
+<div class="flex items-center p-1 rounded-xl bg-surface-container-low">
+<button class="inline-flex items-center gap-space-2xs px-space-md py-space-xs rounded-lg bg-surface-container-lowest shadow-sm text-primary font-title-md text-title-md transition-all" id="view-grid-btn" onclick="switchView('grid')">
+<span class="material-symbols-outlined text-title-md">grid_view</span>
+<span class="">Lưới tuần</span>
+</button>
+<button class="inline-flex items-center gap-space-2xs px-space-md py-space-xs rounded-lg text-on-surface-variant hover:text-on-surface font-title-md text-title-md transition-all" id="view-list-btn" onclick="switchView('list')">
+<span class="material-symbols-outlined text-title-md">view_agenda</span>
+<span class="">Danh sách</span>
+</button>
+</div>
+<!-- State Demo Toggle -->
+<button class="inline-flex items-center gap-space-2xs px-space-sm py-space-xs rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm transition-all" id="toggle-state-btn" onclick="toggleScheduleState()" title="Xem màn hình khi chưa có lịch">
+<span class="material-symbols-outlined text-body-md">swap_horiz</span>
+<span id="state-btn-text" class="">Demo Trống (Empty)</span>
+</button>
+</div>
+</div>
+<!-- Main Content Layout (Grid Schedule + Aside Metrics) -->
+<div class="grid grid-cols-1 xl:grid-cols-12 gap-space-lg items-start" id="content-container">
+<!-- SCHEDULE MATRIX AREA (Col 9 / 12) -->
+<div class="xl:col-span-9 flex flex-col gap-space-lg" id="schedule-viewport">
+<!-- GRID VIEW -->
+<div class="flex flex-col bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden" id="view-grid">
+<!-- Weekday Header Row -->
+<div class="grid grid-cols-8 bg-surface-container-low text-center py-space-sm px-space-xs sticky top-0 z-20 shadow-sm">
+<div class="flex flex-col justify-center items-center text-outline font-label-sm text-label-sm uppercase">
+<span class="">Tiết / Giờ</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Thứ 2</span>
+<span class="font-title-md text-title-md text-on-surface font-semibold">17/02</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Thứ 3</span>
+<span class="font-title-md text-title-md text-on-surface font-semibold">18/02</span>
+</div>
+<!-- Today highlight -->
+<div class="flex flex-col items-center py-0.5 px-space-2xs bg-primary-fixed/40 rounded-lg">
+<span class="font-label-sm text-label-sm text-primary font-bold uppercase">Thứ 4 (Hôm nay)</span>
+<span class="font-title-md text-title-md text-primary font-bold">19/02</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Thứ 5</span>
+<span class="font-title-md text-title-md text-on-surface font-semibold">20/02</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Thứ 6</span>
+<span class="font-title-md text-title-md text-on-surface font-semibold">21/02</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Thứ 7</span>
+<span class="font-title-md text-title-md text-on-surface font-semibold">22/02</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-label-sm text-label-sm text-outline uppercase">Chủ nhật</span>
+<span class="font-title-md text-title-md text-outline">23/02</span>
+</div>
+</div>
+<!-- Timetable Time Track Rows -->
+<div class="relative overflow-x-auto">
+<div class="min-w-[760px] flex flex-col relative py-space-2xs">
+<!-- Hourly Guidelines (07:00 -> 18:00) -->
+<!-- 07:00 - Tiết 1 -->
+<div class="grid grid-cols-8 h-16 bg-transparent hover:bg-surface-container-lowest transition-colors">
+<div class="flex flex-col justify-start px-space-sm pt-1">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">07:00</span>
+<span class="font-body-sm text-body-sm text-outline">Tiết 1</span>
+</div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-primary-fixed/10"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+</div>
+<!-- 08:00 - Tiết 2 -->
+<div class="grid grid-cols-8 h-16 bg-transparent">
+<div class="flex flex-col justify-start px-space-sm pt-1">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">08:00</span>
+<span class="font-body-sm text-body-sm text-outline">Tiết 2</span>
+</div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-primary-fixed/10"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+</div>
+<!-- 09:00 - Tiết 3 -->
+<div class="grid grid-cols-8 h-16 bg-transparent">
+<div class="flex flex-col justify-start px-space-sm pt-1">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">09:00</span>
+<span class="font-body-sm text-body-sm text-outline">Tiết 3</span>
+</div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-primary-fixed/10"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+</div>
+<!-- 10:00 - Tiết 4 -->
+<div class="grid grid-cols-8 h-16 bg-transparent">
+<div class="flex flex-col justify-start px-space-sm pt-1">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">10:00</span>
+<span class="font-body-sm text-body-sm text-outline">Tiết 4</span>
+</div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-primary-fixed/10"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+</div>
+<!-- 11:00 - Tiết 5 -->
+<div class="grid grid-cols-8 h-16 bg-transparent">
+<div class="flex flex-col justify-start px-space-sm pt-1">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">11:00</span>
+<span class="font-body-sm text-body-sm text-outline">Tiết 5</span>
+</div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-primary-fixed/10"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+</div>
+<!-- 12:00 - Nghỉ trưa -->
+<div class="grid grid-cols-8 h-12 bg-surface-container-low/50 items-center">
+<div class="px-space-sm font-label-sm text-label-sm text-outline">12:00 Nghỉ</div>
+<div class="col-span-7 px-space-md font-body-sm text-body-sm text-outline italic" colspan="7">Giờ nghỉ trưa sinh viên</div>
+</div>
+<!-- 13:00 - Tiết 7 -->
+<div class="grid grid-cols-8 h-16 bg-transparent">
+<div class="flex flex-col justify-start px-space-sm pt-1">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">13:00</span>
+<span class="font-body-sm text-body-sm text-outline">Tiết 7</span>
+</div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-primary-fixed/10"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+</div>
+<!-- 14:00 - Tiết 8 -->
+<div class="grid grid-cols-8 h-16 bg-transparent">
+<div class="flex flex-col justify-start px-space-sm pt-1">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">14:00</span>
+<span class="font-body-sm text-body-sm text-outline">Tiết 8</span>
+</div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-primary-fixed/10"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+</div>
+<!-- 15:00 - Tiết 9 -->
+<div class="grid grid-cols-8 h-16 bg-transparent">
+<div class="flex flex-col justify-start px-space-sm pt-1">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">15:00</span>
+<span class="font-body-sm text-body-sm text-outline">Tiết 9</span>
+</div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-primary-fixed/10"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+</div>
+<!-- 16:00 - Tiết 10 -->
+<div class="grid grid-cols-8 h-16 bg-transparent">
+<div class="flex flex-col justify-start px-space-sm pt-1">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">16:00</span>
+<span class="font-body-sm text-body-sm text-outline">Tiết 10</span>
+</div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-primary-fixed/10"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+</div>
+<!-- 17:00 - Tiết 11 -->
+<div class="grid grid-cols-8 h-16 bg-transparent">
+<div class="flex flex-col justify-start px-space-sm pt-1">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">17:00</span>
+<span class="font-body-sm text-body-sm text-outline">Tiết 11</span>
+</div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-primary-fixed/10"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+<div class="bg-surface-container-low/20"></div>
+</div>
+<!-- 18:00 - Tiết 12 -->
+<div class="grid grid-cols-8 h-12 bg-transparent">
+<div class="flex flex-col justify-start px-space-sm pt-1">
+<span class="font-label-sm text-label-sm text-outline">18:00</span>
+<span class="font-body-sm text-body-sm text-outline">Tiết 12</span>
+</div>
+<div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+</div>
+<!-- ABSOLUTE POSITIONED SCHEDULE CARDS ON THE MATRIX -->
+<!-- 1. Thứ 2 (Col 2): 07:30 - 09:50 -> Top: ~32px, Height: ~140px -->
+<div class="absolute top-[32px] left-[12.5%] w-[12.5%] p-1 z-10"><div class="h-[210px] bg-primary rounded-xl p-space-md text-on-primary shadow-md flex flex-col justify-between hover:scale-[1.02] transition-transform cursor-pointer relative overflow-hidden group"><div class="absolute top-0 right-0 w-16 h-16 bg-on-primary/10 rounded-full blur-xl"></div><div class="flex flex-col gap-space-xs min-w-0"><div class="flex items-center justify-between gap-1"><span class="font-label-sm text-label-sm bg-on-primary/20 px-1.5 py-0.5 rounded text-on-primary font-semibold">IT4020</span><span class="font-label-sm text-label-sm text-on-primary/80">3 TC</span></div><h4 class="font-title-md text-title-md font-bold leading-tight mt-0.5">Lập trình Web nâng cao</h4><div class="flex items-center gap-1 font-body-sm text-body-sm text-on-primary/90 mt-1"><span class="material-symbols-outlined text-body-sm">schedule</span><span class="">07:30 - 09:50</span></div></div><div class="flex flex-col gap-1.5 font-label-sm text-label-sm text-on-primary/95 pt-space-xs border-t border-on-primary/20"><div class="flex items-center gap-1"><span class="material-symbols-outlined text-body-sm">meeting_room</span><span class="font-semibold truncate">P.302-A2 • CS1</span></div><div class="flex items-center gap-1 truncate text-on-primary/80"><span class="material-symbols-outlined text-body-sm">person</span><span class="truncate">TS. Trần Văn Hải</span></div></div></div></div>
+<!-- 2. Thứ 3 (Col 3): 09:00 - 11:30 -> Top: ~128px, Height: ~156px -->
+<div class="absolute top-[128px] left-[25%] w-[12.5%] p-1 z-10"><div class="h-[210px] bg-[#6750A4] rounded-xl p-space-md text-white shadow-md flex flex-col justify-between hover:scale-[1.02] transition-transform cursor-pointer relative overflow-hidden"><div class="flex flex-col gap-space-xs min-w-0"><div class="flex items-center justify-between gap-1"><span class="font-label-sm text-label-sm bg-white/20 px-1.5 py-0.5 rounded text-white font-semibold">IT3010</span><span class="font-label-sm text-label-sm bg-white/20 text-white px-1.5 py-0.5 rounded-full">Sắp tới</span></div><h4 class="font-title-md text-title-md font-bold leading-tight mt-0.5">CT Dữ liệu &amp; Giải thuật</h4><div class="flex items-center gap-1 font-body-sm text-body-sm text-white/90 mt-1"><span class="material-symbols-outlined text-body-sm">schedule</span><span class="">09:00 - 11:30</span></div></div><div class="flex flex-col gap-1.5 font-label-sm text-label-sm text-white/90 pt-space-xs border-t border-white/20"><div class="flex items-center gap-1"><span class="material-symbols-outlined text-body-sm">location_on</span><span class="font-semibold">P.405-D9</span></div><div class="flex items-center gap-1 truncate text-white/80"><span class="material-symbols-outlined text-body-sm">school</span><span class="truncate">PGS. Lê Tuấn Anh</span></div></div></div></div>
+<!-- 3. Thứ 4 (Col 4): 13:00 - 15:30 -> Top: ~368px (sau nghỉ trưa), Height: ~156px -->
+<div class="absolute top-[368px] left-[37.5%] w-[12.5%] p-1 z-10"><div class="h-[210px] bg-secondary rounded-xl p-space-md text-on-secondary shadow-lg ring-2 ring-secondary-container flex flex-col justify-between hover:scale-[1.02] transition-transform cursor-pointer relative overflow-hidden"><div class="flex flex-col gap-space-xs min-w-0"><div class="flex items-center justify-between gap-1"><span class="font-label-sm text-label-sm bg-on-secondary/20 px-1.5 py-0.5 rounded text-on-secondary font-semibold">IT4140</span><span class="font-label-sm text-label-sm bg-secondary-container text-on-secondary-container px-2 py-0.5 rounded-full font-bold flex items-center gap-1"><span class="w-1.5 h-1.5 rounded-full bg-secondary animate-ping"></span>Đang học</span></div><h4 class="font-title-md text-title-md font-bold leading-tight mt-0.5">Trí tuệ nhân tạo (AI)</h4><div class="flex items-center gap-1 font-body-sm text-body-sm text-on-secondary/90 mt-1"><span class="material-symbols-outlined text-body-sm">schedule</span><span class="">13:00 - 15:30</span></div></div><div class="flex flex-col gap-1.5 font-label-sm text-label-sm text-on-secondary/95 pt-space-xs border-t border-on-secondary/20"><div class="flex items-center gap-1"><span class="material-symbols-outlined text-body-sm">apartment</span><span class="font-semibold truncate">Hội trường H1</span></div><div class="flex items-center gap-1 truncate text-on-secondary/80"><span class="material-symbols-outlined text-body-sm">person</span><span class="truncate">TS. Phạm Hoàng Long</span></div></div></div></div>
+<!-- Current Realtime Indicator on Wednesday -->
+<div class="absolute top-[410px] left-[37.5%] w-[12.5%] h-0.5 bg-error z-20 flex items-center pointer-events-none">
+<div class="w-2.5 h-2.5 rounded-full bg-error ring-4 ring-error/30 -ml-1"></div>
+<span class="ml-2 font-label-sm text-label-sm bg-error text-on-error px-1 rounded shadow-sm">13:45</span>
+</div>
+<!-- 4. Thứ 5 (Col 5): 08:00 - 10:30 -> Top: ~64px, Height: ~156px -->
+<div class="absolute top-[64px] left-[50%] w-[12.5%] p-1 z-10"><div class="h-[210px] bg-tertiary-container rounded-xl p-space-md text-on-primary shadow-md flex flex-col justify-between hover:scale-[1.02] transition-transform cursor-pointer relative overflow-hidden"><div class="flex flex-col gap-space-xs min-w-0"><div class="flex items-center justify-between gap-1"><span class="font-label-sm text-label-sm bg-black/20 px-1.5 py-0.5 rounded text-white font-semibold">IT3080</span><span class="font-label-sm text-label-sm bg-tertiary-fixed text-on-tertiary-fixed-variant px-1.5 py-0.5 rounded-full font-semibold">Lý thuyết</span></div><h4 class="font-title-md text-title-md font-bold leading-tight text-white mt-0.5">Mạng máy tính</h4><div class="flex items-center gap-1 font-body-sm text-body-sm text-white/90 mt-1"><span class="material-symbols-outlined text-body-sm">schedule</span><span class="">08:00 - 10:30</span></div></div><div class="flex flex-col gap-1.5 font-label-sm text-label-sm text-white/95 pt-space-xs border-t border-white/20"><div class="flex items-center gap-1"><span class="material-symbols-outlined text-body-sm">domain</span><span class="font-semibold">P.201-B1</span></div><div class="flex items-center gap-1 truncate text-white/80"><span class="material-symbols-outlined text-body-sm">person</span><span class="truncate">ThS. Đỗ Thùy Linh</span></div></div></div></div>
+<!-- 5. Thứ 6 (Col 6): 14:00 - 16:30 -> Top: ~432px, Height: ~156px -->
+<div class="absolute top-[432px] left-[62.5%] w-[12.5%] p-1 z-10"><div class="h-[210px] bg-primary-container rounded-xl p-space-md text-on-primary shadow-md flex flex-col justify-between hover:scale-[1.02] transition-transform cursor-pointer relative overflow-hidden"><div class="flex flex-col gap-space-xs min-w-0"><div class="flex items-center justify-between gap-1"><span class="font-label-sm text-label-sm bg-on-primary/20 px-1.5 py-0.5 rounded text-on-primary font-semibold">IT4400</span><span class="font-label-sm text-label-sm bg-secondary-container text-on-secondary-container px-1.5 py-0.5 rounded-full font-semibold">Lab</span></div><h4 class="font-title-md text-title-md font-bold leading-tight mt-0.5">CSDL Phân tán</h4><div class="flex items-center gap-1 font-body-sm text-body-sm text-on-primary/90 mt-1"><span class="material-symbols-outlined text-body-sm">schedule</span><span class="">14:00 - 16:30</span></div></div><div class="flex flex-col gap-1.5 font-label-sm text-label-sm text-on-primary/95 pt-space-xs border-t border-on-primary/20"><div class="flex items-center gap-1"><span class="material-symbols-outlined text-body-sm">computer</span><span class="font-semibold">Lab 502 • Nhà B</span></div><div class="flex items-center gap-1 truncate text-on-primary/80"><span class="material-symbols-outlined text-body-sm">person</span><span class="truncate">TS. Ngô Quang Đăng</span></div></div></div></div>
+<!-- 6. Thứ 7 (Col 7): 09:00 - 11:00 -> Top: ~128px, Height: ~128px -->
+<div class="absolute top-[128px] left-[75%] w-[12.5%] p-1 z-10"><div class="h-[190px] bg-surface-container-highest rounded-xl p-space-md text-on-surface shadow-sm flex flex-col justify-between hover:scale-[1.02] transition-transform cursor-pointer relative overflow-hidden"><div class="flex flex-col gap-space-xs min-w-0"><div class="flex items-center justify-between gap-1"><span class="font-label-sm text-label-sm bg-surface-container px-1.5 py-0.5 rounded text-on-surface font-semibold">PE1020</span><span class="font-label-sm text-label-sm text-outline">1 TC</span></div><h4 class="font-title-md text-title-md font-bold leading-tight mt-0.5">Thể dục &amp; Thể thao</h4><div class="flex items-center gap-1 font-body-sm text-body-sm text-on-surface-variant mt-1"><span class="material-symbols-outlined text-body-sm">schedule</span><span class="">09:00 - 11:00</span></div></div><div class="flex flex-col gap-1.5 font-label-sm text-label-sm text-on-surface-variant pt-space-xs border-t border-outline-variant/30"><div class="flex items-center gap-1"><span class="material-symbols-outlined text-body-sm">stadium</span><span class="font-semibold truncate">Sân Vận Động</span></div><div class="flex items-center gap-1 truncate text-outline"><span class="material-symbols-outlined text-body-sm">sports</span><span class="truncate">GV. Nguyễn Thanh Nam</span></div></div></div></div>
+</div>
+</div>
+</div>
+<!-- LIST VIEW (Toggled via JS) -->
+<div class="hidden flex-col gap-space-md" id="view-list">
+<!-- Thứ 2 -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-sm px-space-xs">
+<span class="font-title-md text-title-md font-bold text-primary">Thứ 2 (17/02)</span>
+<div class="h-0.5 flex-1 bg-surface-container-high"></div>
+<span class="font-label-sm text-label-sm text-outline">1 buổi học</span>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-space-md hover:bg-surface-container-low transition-colors">
+<div class="flex items-start gap-space-md">
+<div class="w-1.5 self-stretch bg-primary rounded-full"></div>
+<div class="flex flex-col gap-space-2xs">
+<div class="flex items-center gap-space-xs">
+<span class="px-space-xs py-space-2xs bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm rounded font-semibold">IT4020</span>
+<span class="font-title-md text-title-md font-bold text-on-surface">Lập trình Web nâng cao</span>
+<span class="px-space-xs py-space-2xs bg-surface-container text-outline font-label-sm text-label-sm rounded-full">3 tín chỉ</span>
+</div>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm flex-wrap">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-body-md text-primary">schedule</span> 07:30 - 09:50 (Tiết 1 - 3)</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-body-md text-primary">meeting_room</span> P.302-A2 • Cơ sở 1</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-body-md text-primary">person</span> TS. Trần Văn Hải</span>
+</div>
+</div>
+</div>
+<span class="self-start md:self-center px-space-sm py-space-2xs bg-surface-container-high text-on-surface-variant rounded-full font-label-sm text-label-sm">Đã kết thúc</span>
+</div>
+</div>
+<!-- Thứ 3 -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-sm px-space-xs">
+<span class="font-title-md text-title-md font-bold text-on-surface">Thứ 3 (18/02)</span>
+<div class="h-0.5 flex-1 bg-surface-container-high"></div>
+<span class="font-label-sm text-label-sm text-outline">1 buổi học</span>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-space-md hover:bg-surface-container-low transition-colors">
+<div class="flex items-start gap-space-md">
+<div class="w-1.5 self-stretch bg-[#6750A4] rounded-full"></div>
+<div class="flex flex-col gap-space-2xs">
+<div class="flex items-center gap-space-xs">
+<span class="px-space-xs py-space-2xs bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm rounded font-semibold">IT3010</span>
+<span class="font-title-md text-title-md font-bold text-on-surface">Cấu trúc dữ liệu &amp; Giải thuật</span>
+<span class="px-space-xs py-space-2xs bg-surface-container text-outline font-label-sm text-label-sm rounded-full">3 tín chỉ</span>
+</div>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm flex-wrap">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-body-md text-[#6750A4]">schedule</span> 09:00 - 11:30 (Tiết 3 - 5)</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-body-md text-[#6750A4]">meeting_room</span> P.405-D9</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-body-md text-[#6750A4]">person</span> PGS. Lê Tuấn Anh</span>
+</div>
+</div>
+</div>
+<span class="self-start md:self-center px-space-sm py-space-2xs bg-surface-container-high text-on-surface-variant rounded-full font-label-sm text-label-sm">Đã kết thúc</span>
+</div>
+</div>
+<!-- Thứ 4 (Today) -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-sm px-space-xs">
+<span class="font-title-md text-title-md font-bold text-secondary flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+              Thứ 4 (Hôm nay - 19/02)
+            </span>
+<div class="h-0.5 flex-1 bg-secondary-fixed"></div>
+<span class="font-label-sm text-label-sm text-secondary font-bold">1 buổi đang diễn ra</span>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-md ring-2 ring-secondary/20 flex flex-col md:flex-row md:items-center justify-between gap-space-md bg-gradient-to-r from-secondary-fixed/10 to-transparent">
+<div class="flex items-start gap-space-md">
+<div class="w-1.5 self-stretch bg-secondary rounded-full"></div>
+<div class="flex flex-col gap-space-2xs">
+<div class="flex items-center gap-space-xs">
+<span class="px-space-xs py-space-2xs bg-secondary-container text-on-secondary-container font-label-sm text-label-sm rounded font-semibold">IT4140</span>
+<span class="font-title-md text-title-md font-bold text-on-surface">Trí tuệ nhân tạo (AI)</span>
+<span class="px-space-xs py-space-2xs bg-surface-container text-outline font-label-sm text-label-sm rounded-full">3 tín chỉ</span>
+</div>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm flex-wrap">
+<span class="flex items-center gap-1 font-semibold text-secondary"><span class="material-symbols-outlined text-body-md text-secondary">schedule</span> 13:00 - 15:30 (Tiết 7 - 9)</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-body-md text-secondary">apartment</span> Hội trường H1</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-body-md text-secondary">person</span> TS. Phạm Hoàng Long</span>
+</div>
+</div>
+</div>
+<span class="self-start md:self-center px-space-sm py-space-2xs bg-secondary-container text-on-secondary-container rounded-full font-label-md text-label-md font-bold flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-secondary animate-ping"></span>
+              Đang diễn ra (Tiết 8)
+            </span>
+</div>
+</div>
+<!-- Thứ 5 -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-sm px-space-xs">
+<span class="font-title-md text-title-md font-bold text-on-surface">Thứ 5 (20/02)</span>
+<div class="h-0.5 flex-1 bg-surface-container-high"></div>
+<span class="font-label-sm text-label-sm text-outline">1 buổi học</span>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-space-md hover:bg-surface-container-low transition-colors">
+<div class="flex items-start gap-space-md">
+<div class="w-1.5 self-stretch bg-tertiary rounded-full"></div>
+<div class="flex flex-col gap-space-2xs">
+<div class="flex items-center gap-space-xs">
+<span class="px-space-xs py-space-2xs bg-tertiary-fixed text-on-tertiary-fixed-variant font-label-sm text-label-sm rounded font-semibold">IT3080</span>
+<span class="font-title-md text-title-md font-bold text-on-surface">Mạng máy tính</span>
+<span class="px-space-xs py-space-2xs bg-surface-container text-outline font-label-sm text-label-sm rounded-full">3 tín chỉ</span>
+</div>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm flex-wrap">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-body-md text-tertiary">schedule</span> 08:00 - 10:30 (Tiết 2 - 4)</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-body-md text-tertiary">domain</span> P.201-B1</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-body-md text-tertiary">person</span> ThS. Đỗ Thùy Linh</span>
+</div>
+</div>
+</div>
+<span class="self-start md:self-center px-space-sm py-space-2xs bg-tertiary-fixed text-on-tertiary-fixed-variant rounded-full font-label-sm text-label-sm font-semibold">Sắp diễn ra ngày mai</span>
+</div>
+</div>
+<!-- Thứ 6 -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-sm px-space-xs">
+<span class="font-title-md text-title-md font-bold text-on-surface">Thứ 6 (21/02)</span>
+<div class="h-0.5 flex-1 bg-surface-container-high"></div>
+<span class="font-label-sm text-label-sm text-outline">1 buổi học</span>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-space-md hover:bg-surface-container-low transition-colors">
+<div class="flex items-start gap-space-md">
+<div class="w-1.5 self-stretch bg-primary-container rounded-full"></div>
+<div class="flex flex-col gap-space-2xs">
+<div class="flex items-center gap-space-xs">
+<span class="px-space-xs py-space-2xs bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm rounded font-semibold">IT4400</span>
+<span class="font-title-md text-title-md font-bold text-on-surface">Cơ sở dữ liệu phân tán</span>
+<span class="px-space-xs py-space-2xs bg-secondary-container text-on-secondary-container font-label-sm text-label-sm rounded-full font-semibold">Thực hành Lab</span>
+</div>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm flex-wrap">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-body-md text-primary">schedule</span> 14:00 - 16:30 (Tiết 8 - 10)</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-body-md text-primary">computer</span> Lab 502 • Nhà B</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-body-md text-primary">person</span> TS. Ngô Quang Đăng</span>
+</div>
+</div>
+</div>
+<span class="self-start md:self-center px-space-sm py-space-2xs bg-surface-container text-outline rounded-full font-label-sm text-label-sm">Còn 2 ngày</span>
+</div>
+</div>
+<!-- Thứ 7 -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-sm px-space-xs">
+<span class="font-title-md text-title-md font-bold text-on-surface">Thứ 7 (22/02)</span>
+<div class="h-0.5 flex-1 bg-surface-container-high"></div>
+<span class="font-label-sm text-label-sm text-outline">1 buổi học</span>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-space-md hover:bg-surface-container-low transition-colors">
+<div class="flex items-start gap-space-md">
+<div class="w-1.5 self-stretch bg-outline-variant rounded-full"></div>
+<div class="flex flex-col gap-space-2xs">
+<div class="flex items-center gap-space-xs">
+<span class="px-space-xs py-space-2xs bg-surface-container text-on-surface-variant font-label-sm text-label-sm rounded font-semibold">PE1020</span>
+<span class="font-title-md text-title-md font-bold text-on-surface">Thể dục &amp; Thể thao</span>
+<span class="px-space-xs py-space-2xs bg-surface-container text-outline font-label-sm text-label-sm rounded-full">1 tín chỉ</span>
+</div>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm flex-wrap">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-body-md text-outline">schedule</span> 09:00 - 11:00 (Tiết 3 - 4)</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-body-md text-outline">stadium</span> Sân Vận Động Trường</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-body-md text-outline">sports</span> GV. Nguyễn Thanh Nam</span>
+</div>
+</div>
+</div>
+<span class="self-start md:self-center px-space-sm py-space-2xs bg-surface-container text-outline rounded-full font-label-sm text-label-sm">Còn 3 ngày</span>
+</div>
+</div>
+</div>
+</div>
+<!-- EMPTY STATE COMPONENT (Dynamically switched via toggle button) -->
+<div class="hidden xl:col-span-9 bg-surface-container-lowest rounded-xl p-space-2xl text-center flex-col items-center justify-center gap-space-md shadow-sm" id="schedule-empty-state">
+<div class="w-24 h-24 rounded-full bg-surface-container flex items-center justify-center text-outline">
+<span class="material-symbols-outlined text-[48px]">event_busy</span>
+</div>
+<div class="flex flex-col gap-space-2xs max-w-md">
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold">Chưa có dữ liệu lịch học cho tuần này</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Tuần 24 hiện không có môn học nào được đăng ký hoặc dữ liệu chưa được nạp từ tệp HTML thời khóa biểu của trường.
+        </p>
+</div>
+<div class="flex items-center gap-space-sm mt-space-sm">
+<a class="inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-xl bg-primary-container text-on-primary font-title-md text-title-md shadow-md hover:bg-primary transition-all" data-path="nhap-lich-html" href="#">
+<span class="material-symbols-outlined text-title-md">upload_file</span>
+<span class="">Nạp tệp HTML ngay</span>
+</a>
+<button class="px-space-md py-space-sm rounded-xl bg-surface-container hover:bg-surface-container-high text-on-surface font-title-md text-title-md transition-all" onclick="toggleScheduleState()">
+          Quay lại xem lịch mẫu
+        </button>
+</div>
+</div>
+<!-- SIDEBAR STATS & SYSTEM METRICS (Col 3 / 12) -->
+<aside class="xl:col-span-3 flex flex-col gap-space-lg">
+<!-- Week Academic Summary Widget -->
+
+<!-- Live API Diagnostic Card (Microservices Integration) -->
+
+<!-- Quick Room Location Guide -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-title-md">map</span>
+<h3 class="font-title-md text-title-md font-bold text-on-surface">Vị trí giảng đường tuần này</h3>
+</div>
+<div class="flex flex-wrap gap-space-xs">
+<span class="px-space-xs py-space-2xs rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant">P.302-A2 (Cơ sở 1)</span>
+<span class="px-space-xs py-space-2xs rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant">P.405-D9 (Khu C)</span>
+<span class="px-space-xs py-space-2xs rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Hội trường H1</span>
+<span class="px-space-xs py-space-2xs rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant">P.201-B1</span>
+<span class="px-space-xs py-space-2xs rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Lab 502 (Nhà B)</span>
+<span class="px-space-xs py-space-2xs rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Sân Thể Dục</span>
+</div>
+</div>
+</aside>
+</div>
+</div>
+<script>
+  // State switcher between Grid View and List View
+  function switchView(mode) {
+    const gridView = document.getElementById('view-grid');
+    const listView = document.getElementById('view-list');
+    const gridBtn = document.getElementById('view-grid-btn');
+    const listBtn = document.getElementById('view-list-btn');
+
+    if (mode === 'grid') {
+      gridView.classList.remove('hidden');
+      listView.classList.add('hidden');
+      
+      gridBtn.className = "inline-flex items-center gap-space-2xs px-space-md py-space-xs rounded-lg bg-surface-container-lowest shadow-sm text-primary font-title-md text-title-md transition-all";
+      listBtn.className = "inline-flex items-center gap-space-2xs px-space-md py-space-xs rounded-lg text-on-surface-variant hover:text-on-surface font-title-md text-title-md transition-all";
+    } else {
+      gridView.classList.add('hidden');
+      listView.classList.remove('hidden');
+
+      listBtn.className = "inline-flex items-center gap-space-2xs px-space-md py-space-xs rounded-lg bg-surface-container-lowest shadow-sm text-primary font-title-md text-title-md transition-all";
+      gridBtn.className = "inline-flex items-center gap-space-2xs px-space-md py-space-xs rounded-lg text-on-surface-variant hover:text-on-surface font-title-md text-title-md transition-all";
+    }
+  }
+
+  // Toggle Empty State demo for presentation
+  let isEmpty = false;
+  function toggleScheduleState() {
+    isEmpty = !isEmpty;
+    const viewport = document.getElementById('schedule-viewport');
+    const emptyState = document.getElementById('schedule-empty-state');
+    const btnText = document.getElementById('state-btn-text');
+
+    if (isEmpty) {
+      viewport.classList.add('hidden');
+      emptyState.classList.remove('hidden');
+      emptyState.classList.add('flex');
+      btnText.innerText = "Demo Có lịch (Full)";
+    } else {
+      viewport.classList.remove('hidden');
+      emptyState.classList.add('hidden');
+      emptyState.classList.remove('flex');
+      btnText.innerText = "Demo Trống (Empty)";
+    }
+  }
+
+  // Simulate API sync with Flask backend
+  function handleSync() {
+    const icon = document.getElementById('sync-icon');
+    const text = document.getElementById('sync-text');
+    icon.classList.add('animate-spin');
+    text.innerText = 'Đang gọi GET /api/schedule...';
+
+    setTimeout(() => {
+      icon.classList.remove('animate-spin');
+      text.innerText = 'Đã đồng bộ!';
+      setTimeout(() => {
+        text.innerText = 'Đồng bộ lại';
+      }, 2000);
+    }, 900);
+  }
+</script></main></div>
+
+
+
+
+
+</body></html>
